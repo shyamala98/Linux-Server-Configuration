@@ -23,15 +23,25 @@ Project: Linux Server Configuration  - [Shyamala Prakash]
     apt-get update
     
     apt-get install python-pip
+    
     pip install -U psycopg2
+    
     pip install Flask
+    
     pip install sqlalchemy
+    
     apt-get install python-setuptools
+    
     apt-get install git
+    
     apt-get install postgresql postgresql-contrib
+    
     apt-get install apache
+    
     dpkg --connfigure -a
+    
     apt-get install libapache2-mod-wsgi
+    
     
     git config --global user.name "shyamala98"
     
